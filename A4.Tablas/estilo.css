@@ -13,13 +13,13 @@
         }
 
         th, td {
-            border: 1px solid #ccc;
+            border: 1px solid #151212;
             padding: 10px;
             font-size: 14px;
         }
 
         th {
-            background-color: #f2f2f2;
+            background-color: #f7f3f3;
             font-weight: bold;
         }
 
@@ -29,53 +29,50 @@
 
         .BADAT {
             font-weight: bold;
-            color: #FF5733; /* Color para BADAT */
+            color: #FF5733; 
         }
 
         .LMSGI {
             font-weight: bold;
-            color: #33A1FF; /* Color para LMSGI */
+            color: #33A1FF; 
         }
 
         .ENDES {
             font-weight: bold;
-            color: #9B59B6; /* Color para ENDES */
+            color: #9B59B6; 
         }
 
         .DASPGS {
             font-weight: bold;
-            color: #27AE60; /* Color para DASPGS */
+            color: #27AE60; 
         }
 
         .SOST {
             font-weight: bold;
-            color: #F1C40F; /* Color para SOST */
+            color: #F1C40F; 
         }
 
         .IPE1 {
             font-weight: bold;
-            color: #E67E22; /* Color para IPE1 */
+            color: #E67E22; 
         }
 
         .SIINF {
             font-weight: bold;
-            color: #2980B9; /* Color para SIINF */
+            color: #2980B9; 
         }
 
         .PROGR {
             font-weight: bold;
-            color: #C0392B; /* Color para PROGR */
+            color: #C0392B; 
         }
 
         .break {
-            background-color: #f9f9f9;
+            background-color: #dad3d3;
             font-weight: bold;
-            color: #333;
+            color: #601c1c;
         }
 
-        /* Estilo para el texto de las aulas directamente en cada celda */
-        .room-info {
-            font-size: 12px;
-            color: #666;
-        }
+        
+        
  
