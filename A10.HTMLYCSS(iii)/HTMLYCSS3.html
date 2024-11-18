@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores</title>
+    <style>
+        /* Estado normal: enlace rojo sin subrayado */
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        /* Estado hover: fondo rojo, texto blanco, subrayado */
+        a:hover {
+            color: white;
+            background-color: red;
+            text-decoration: underline;
+        }
+
+        /* Estado active: enlace naranja sin subrayado */
+        a:active {
+            color: orange;
+            text-decoration: none;
+        }
+
+        /* Estado visited: enlace verde oscuro sin subrayado */
+        a:visited {
+            color: darkgreen;
+            text-decoration: none;
+        }
+
+        /* Estado focus: enlace azul con subrayado */
+        a:focus {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Universidad de Alicante</h1>
+
+    <ul>
+        <li><a href=https://www.marca.com/>Presentación</a></li>
+        <li><a href=https://es.wikipedia.org/wiki/Estudio>Estudios</a></li>
+        <li><a href=https://www.sport.es/es/>Alumnos</a></li>
+        <li><a href=https://concepto.de/servicio/>Deportes</a></li>
+        <li><a href=https://www.hola.com/>Servicios</a></li>
+    </ul>
+</body>
+</html>
